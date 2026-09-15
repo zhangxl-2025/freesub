@@ -7,38 +7,36 @@
       "type": "vless",
       "tag": "🌐 其他地区 (Other) 01 - xiaohe",
       "server": "188.114.97.6",
-      "server_port": 2086,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "server_port": 8080,
+      "uuid": "bd9ff08b-d042-3650-48e4-c4b400000000",
       "transport": {
         "type": "ws",
-        "path": "/",
+        "path": "/NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN",
         "headers": {
-          "Host": "zb1zi.s3nx.dyz.hh.vavava.kdns.fr"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
+          "Host": "netlivpn2950.bbxff.workers.dev"
+        }
       }
     },
     {
       "type": "vless",
       "tag": "🌐 其他地区 (Other) 02 - xiaohe",
-      "server": "104.25.99.169",
-      "server_port": 443,
-      "uuid": "50414e45-4c5f-5a45-5553-60c86b8747e5",
+      "server": "104.21.55.123",
+      "server_port": 2053,
+      "uuid": "95de071f-747c-dc07-36ac-5c0854a9e50e",
       "tls": {
         "enabled": true,
-        "server_name": "web-app-aug8yr.app-f1qsy1.workers.dev",
+        "server_name": "restless-boat-ebf2.moha102030.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "ios"
+          "fingerprint": "chrome"
         }
       },
       "transport": {
         "type": "ws",
-        "path": "/api/ws",
+        "path": "/sync",
         "headers": {
-          "Host": "web-app-aug8yr.app-f1qsy1.workers.dev"
+          "Host": "restless-boat-ebf2.moha102030.workers.dev"
         }
       }
     },
