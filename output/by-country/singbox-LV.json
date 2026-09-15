@@ -6,16 +6,16 @@
     {
       "type": "vless",
       "tag": "🇱🇻 拉脱维亚 (Latvia) 01 - xiaohe",
-      "server": "131.123.25.4",
+      "server": "89.105.206.124",
       "server_port": 443,
       "uuid": "4360f941-b541-01ac-8507-2de3763e0cfd",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "fr.convert-flow.net",
+        "server_name": "nl.convert-flow.net",
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,

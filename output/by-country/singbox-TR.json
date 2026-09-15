@@ -32,28 +32,42 @@
     {
       "type": "vless",
       "tag": "🇹🇷 土耳其 (Turkey) 02 - xiaohe",
-      "server": "156.67.63.231",
-      "server_port": 443,
-      "uuid": "b052df40-d51c-456c-9bd6-57af01a87e4e",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "sync-bridge.org",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "PTqeBbbr2xJ1L3V1PyYjKjxanMKKqJHU-wtnpYmFQCI",
-          "short_id": "5606d4a25c99e7af"
+      "server": "104.20.6.153",
+      "server_port": 8880,
+      "uuid": "a22bff60-a40a-4250-bde2-4c660e363b47",
+      "transport": {
+        "type": "ws",
+        "path": "/j100sy9wn073cxbvir",
+        "headers": {
+          "Host": "index.harmonica02.workers.dev"
         }
       }
     },
     {
       "type": "vless",
       "tag": "🇹🇷 土耳其 (Turkey) 03 - xiaohe",
-      "server": "172.67.134.170",
+      "server": "107.161.174.26",
+      "server_port": 443,
+      "uuid": "069ba4cf-e8af-4561-b11e-18bd07b0dbd3",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "books.blackbigdog.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "N8tPKh6gTyc6L5GOmBn_3wIy707a-5QYB0FrF2HigUc",
+          "short_id": ""
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇹🇷 土耳其 (Turkey) 04 - xiaohe",
+      "server": "172.67.151.109",
       "server_port": 443,
       "uuid": "50414e45-4c5f-5a45-5553-635698a6bb9c",
       "tls": {
@@ -66,29 +80,6 @@
         "path": "/stream/PANEL_ZEUS/635698a6bb9c/loc-0",
         "headers": {
           "Host": "jdzit4e4urks.xwzohsebujps.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇹🇷 土耳其 (Turkey) 04 - xiaohe",
-      "server": "199.232.78.159",
-      "server_port": 443,
-      "uuid": "d7282b41-1f2a-47bb-8593-f464fd6b6d78",
-      "tls": {
-        "enabled": true,
-        "server_name": "global.fastly.com",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "BechBad.global.ssl.fastly.net"
         }
       }
     },
