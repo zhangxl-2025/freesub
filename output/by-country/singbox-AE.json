@@ -24,7 +24,7 @@
       "tag": "🇦🇪 阿联酋 (UAE) 02 - xiaohe",
       "server": "31.58.181.88",
       "server_port": 8443,
-      "uuid": "21d11336-4659-448a-a903-e5b7e597ea8a",
+      "uuid": "c86f3ea2-4594-4966-a14a-8c7a45051b69",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
@@ -59,7 +59,7 @@
     {
       "type": "hysteria2",
       "tag": "🇦🇪 阿联酋 (UAE) 04 - xiaohe",
-      "server": "85.204.107.181",
+      "server": "85.204.107.171",
       "server_port": 8080,
       "password": "Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0",
       "tls": {
