@@ -4,9 +4,9 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇩🇪 德国 (Germany) 01 (家宽) - xiaohe
-  server: 95.85.89.70
-  port: 81
+- name: 🇧🇷 巴西 (Brazil) 01 - xiaohe
+  server: 172.237.120.201
+  port: 443
   udp: true
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
@@ -15,7 +15,7 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /trade?ed=2560fp=chrome
+    path: /edu/group?ed=2560fp=chrome
     headers:
       Host: cdn8848.776676.xyz
 proxy-groups:
@@ -23,12 +23,12 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇩🇪 德国 (Germany) 01 (家宽) - xiaohe
+  - 🇧🇷 巴西 (Brazil) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇩🇪 德国 (Germany) 01 (家宽) - xiaohe
+  - 🇧🇷 巴西 (Brazil) 01 - xiaohe
 rules:
 - MATCH,PROXIES
