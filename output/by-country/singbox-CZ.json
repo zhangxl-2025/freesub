@@ -4,15 +4,18 @@
   },
   "outbounds": [
     {
-      "type": "vless",
+      "type": "trojan",
       "tag": "🇨🇿 捷克 (Czech) 01 - xiaohe",
-      "server": "162.159.152.4",
+      "server": "199.232.78.170",
       "server_port": 443,
-      "uuid": "f2a73750-3087-48ff-a763-1348c15dce68",
+      "password": "mitivpn",
       "tls": {
         "enabled": true,
-        "server_name": "rayan-007.maxima.dpdns.org",
+        "server_name": "ssl.fastly.com",
         "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -20,8 +23,9 @@
       },
       "transport": {
         "type": "ws",
+        "path": "@mehrosabiran",
         "headers": {
-          "Host": "rayan-007.maxima.dpdns.org"
+          "Host": "mitivpn---de--s---mitivpn-11.global.ssl.fastly.net"
         }
       }
     },
