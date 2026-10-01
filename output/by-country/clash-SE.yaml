@@ -4,29 +4,30 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇶🇦 卡塔尔 (Qatar) 01 - xiaohe
-  server: 34.18.222.19
+- name: 🇸🇪 瑞典 (Sweden) 01 - xiaohe
+  server: 193.163.203.170
   port: 443
   udp: true
   type: vless
-  uuid: bd82d5e7-4395-40e1-b34e-2974eb0c8555
+  uuid: 11aabba0-5fd1-4f15-8068-74c1a466cefc
+  flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: ZRWl48Ahw4vlnPSTMkNs6xcCEDd9Qq4AsChUp-mg7A4
-    short-id: 9c8748aa3f7d4219
-  servername: www.cloudflare.com
+    public-key: GCCZ1ZZjB_nj7yxqFi22bIIWWr_G6rnWUzDcssN_40o
+    short-id: b28db60d77c50b4f
+  servername: yandex.ru
   client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇶🇦 卡塔尔 (Qatar) 01 - xiaohe
+  - 🇸🇪 瑞典 (Sweden) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇶🇦 卡塔尔 (Qatar) 01 - xiaohe
+  - 🇸🇪 瑞典 (Sweden) 01 - xiaohe
 rules:
 - MATCH,PROXIES
