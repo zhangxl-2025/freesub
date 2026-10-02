@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇺🇸 美国 (United States) 01 (家宽) - xiaohe
-  server: 172.64.32.103
+  server: 162.159.48.32
   port: 8880
   udp: true
   type: vless
@@ -25,7 +25,21 @@ proxies:
   reality-opts:
     public-key: mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE
   servername: addons.mozilla.org
-  client-fingerprint: firefox
+  client-fingerprint: random
+- name: 🇭🇰 中国香港 (Hong Kong) 03 (移动家宽) - xiaohe
+  server: zfd-hkv1.kunlun01dns.com
+  port: 16115
+  udp: true
+  type: vmess
+  uuid: 0802ac03-7973-39ef-a019-ba02de6c01e1
+  alterId: 0
+  cipher: auto
+- name: 🇹🇷 土耳其 (Turkey) 04 (移动家宽) - xiaohe
+  server: test.keoplentuio.xyz
+  port: 2053
+  udp: true
+  type: vless
+  uuid: 9ef61079-6f7d-4911-9608-943da85d8e6f
 proxy-groups:
 - name: PROXIES
   type: select
@@ -33,6 +47,8 @@ proxy-groups:
   - AUTO
   - 🇺🇸 美国 (United States) 01 (家宽) - xiaohe
   - 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 03 (移动家宽) - xiaohe
+  - 🇹🇷 土耳其 (Turkey) 04 (移动家宽) - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -40,5 +56,7 @@ proxy-groups:
   proxies:
   - 🇺🇸 美国 (United States) 01 (家宽) - xiaohe
   - 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 03 (移动家宽) - xiaohe
+  - 🇹🇷 土耳其 (Turkey) 04 (移动家宽) - xiaohe
 rules:
 - MATCH,PROXIES
