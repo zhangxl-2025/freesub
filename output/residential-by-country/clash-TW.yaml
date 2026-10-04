@@ -16,7 +16,7 @@ proxies:
   servername: addons.mozilla.org
   client-fingerprint: firefox
 - name: 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe
-  server: argo6.5671234.xyz
+  server: 104.20.36.205
   port: 443
   udp: true
   type: vless
@@ -27,6 +27,8 @@ proxies:
   network: ws
   ws-opts:
     path: /e8e2cecb6188f7fb
+    headers:
+      Host: argo6.5671234.xyz
 proxy-groups:
 - name: PROXIES
   type: select
