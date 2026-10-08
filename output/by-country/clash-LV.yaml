@@ -16,9 +16,9 @@ proxies:
     public-key: GBdkyDLfr0LIZo_94Xv8ycAKOmkjArYzwJAEMhuXX2c
     short-id: 33acba1b
   servername: www.apple.com
-  client-fingerprint: random
+  client-fingerprint: firefox
 - name: 🇱🇻 拉脱维亚 (Latvia) 02 - xiaohe
-  server: 104.165.205.46
+  server: lv02.gotosvo.com
   port: 9443
   udp: true
   type: hysteria2
